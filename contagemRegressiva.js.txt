@@ -1,0 +1,15 @@
+function contagemRegressiva() {
+  const numero = parseInt(prompt("Digite um número inteiro positivo:"));
+
+  if (numero >= 10) {
+    for (let i = 10; i >= numero; i--) {
+      console.log(i);
+    }
+  } else {
+    console.log("O número deve ser maior ou igual a 10.");
+  }
+contagemRegressiva();
+
+}
+
+

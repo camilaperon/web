@@ -1,0 +1,21 @@
+function calcularMedia() {
+  const notas = [8, 7, 9, 6, 10];
+  let soma = 0;
+
+  for (let nota of notas) {
+    soma += nota;
+  }
+
+  const media = soma / notas.length;
+
+  if (media >= 7) {
+    console.log("Aprovado! Média:", media);
+  } else {
+    console.log("Reprovado! Média:", media);
+  }
+}
+
+calcularMedia();
+
+
+
